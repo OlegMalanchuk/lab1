@@ -41,4 +41,13 @@ public class RectPrism {
         System.out.println("Об'єм = "+sumVolum);
     }
 
+    // рекурсія
+     public int fibonachi(int v){
+        if(v<= 1){
+            return v;
+        }else {
+            return (fibonachi(v-1)) + (fibonachi(v-2));
+        }
+     }
+
 }
