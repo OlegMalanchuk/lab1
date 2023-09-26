@@ -3,9 +3,9 @@ public class Main {
 
         TrianPrism trianPrism = new TrianPrism(2,2,3,4);
 
-        trianPrism.volumeTrianPrism();
+        trianPrism.volume();
         System.out.println(" ");
-        System.out.println(trianPrism.volumeTrianPrism(2,2,3,4));
+        System.out.println(trianPrism.volume(2,2,3,4));
 
 
 
