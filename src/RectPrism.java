@@ -34,8 +34,7 @@ public class RectPrism {
 
 
 
-
-
+    ///NEW NEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEW
 
     // рекурсія
      public int fibonachi(int v){
@@ -45,6 +44,7 @@ public class RectPrism {
             return (fibonachi(v-1)) + (fibonachi(v-2));
         }
      }
+    ///NEW NEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEW
 
 
     public double getSide_a() {
