@@ -12,21 +12,7 @@ public class TrianPrism {
     }
     public TrianPrism(){}
 
-    public double getSide_a() {
-        return side_a;
-    }
 
-    public double getSide_b() {
-        return side_b;
-    }
-
-    public double getSide_c() {
-        return side_c;
-    }
-
-    public double getSide_h() {
-        return side_h;
-    }
 
     public double area(double side_a, double side_b, double side_c, double side_h){
         double p = (side_a+side_b+side_c)/2;//пів периметр
@@ -37,7 +23,7 @@ public class TrianPrism {
         return  areaLateral+(2*areaBaza);
     }
 
-    public void area(){
+   private  void area(){
         double p = (getSide_a()+getSide_b()+getSide_c())/2;//пів периметр
         System.out.println(p);
         double areaBaza =  Math.sqrt(p*((p - getSide_a())*(p-getSide_b())*(p-getSide_c())));//площа основи
@@ -45,6 +31,9 @@ public class TrianPrism {
         double areaLateral = (getSide_a()+getSide_b()+getSide_c())*getSide_h();// площа бічна
          double sum = areaLateral+(2*areaBaza);
         System.out.println("Площа = "+sum);
+    }
+    public void getArea(){
+        area();
     }
 
 
@@ -64,5 +53,19 @@ public class TrianPrism {
 
 
 
+    public double getSide_a() {
+        return side_a;
+    }
 
+    public double getSide_b() {
+        return side_b;
+    }
+
+    public double getSide_c() {
+        return side_c;
+    }
+
+    public double getSide_h() {
+        return side_h;
+    }
 }

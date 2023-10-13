@@ -10,13 +10,7 @@ public class RectPyramid {
     public RectPyramid(){
     }
 
-    public double getSide_a() {
-        return side_a;
-    }
 
-    public double getSide_h() {
-        return side_h;
-    }
 
     public double area(double side_a, double side_h) {
         double per = (side_a + side_a) * 2;
@@ -69,4 +63,11 @@ public class RectPyramid {
 
 
 
+    public double getSide_a() {
+        return side_a;
+    }
+
+    public double getSide_h() {
+        return side_h;
+    }
 }
