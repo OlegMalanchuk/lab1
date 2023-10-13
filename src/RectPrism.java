@@ -11,18 +11,6 @@ public class RectPrism {
     public RectPrism() {// пустий кнструктор
     }
 
-    public double getSide_a() {
-        return side_a;
-    }
-
-    public double getSide_b() {
-        return side_b;
-    }
-
-    public double getSide_h() {
-        return side_h;
-    }
-
     public double area(double side_a, double side_b, double side_h) {// метод для обрахуйнку площі
         return 2 * ((side_a * side_b) + (side_a * side_h) + (side_b * side_h));
 
@@ -41,6 +29,14 @@ public class RectPrism {
         System.out.println("Об'єм = "+sumVolum);
     }
 
+
+
+
+
+
+
+
+
     // рекурсія
      public int fibonachi(int v){
         if(v<= 1){
@@ -50,4 +46,14 @@ public class RectPrism {
         }
      }
 
+
+    public double getSide_a() {
+        return side_a;
+    }
+
+    public double getSide_b() {
+        return side_b;
+    }
+
+    public double getSide_h() {return side_h;}
 }
