@@ -12,9 +12,8 @@ public class TrianPrism {
     }
     public TrianPrism(){}
 
+
     ///NEW NEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEW
-
-
     private double area(double side_a, double side_b, double side_c, double side_h){
         double p = (side_a+side_b+side_c)/2;//пів периметр
         System.out.println(p);
@@ -46,11 +45,6 @@ public class TrianPrism {
     }
     ///NEW NEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEW
     //  я не робив так із всіма бо це пута трата часу
-
-
-
-
-
 
 
 

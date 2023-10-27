@@ -1,16 +1,15 @@
 public class RectPyramid {
     private static double side_a;
     private static double side_h;
+    private String value;
 
     public RectPyramid(double side_a,  double side_h) {
-        RectPyramid.side_a = side_a;
+        this.side_a = side_a;
 
-        RectPyramid.side_h = side_h;
-    }
-    public RectPyramid(){
+        this.side_h = side_h;
     }
 
-
+    public RectPyramid(){}
 
     public static double area(double side_a, double side_h) {
         double per = (side_a + side_a) * 2;
@@ -67,5 +66,16 @@ public class RectPyramid {
 
     public static double getSide_h() {
         return side_h;
+    }
+
+    ///NEW NEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEWNEW
+    public  RectPyramid(String v){
+        this.value=v;
+    }
+    public  void union(RectPyramid vi){
+
+        String value1 = this.value+=vi;
+        System.out.println("New text :" + value1);
+
     }
 }
