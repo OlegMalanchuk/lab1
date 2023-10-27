@@ -48,6 +48,7 @@ public class TrianPrism {
 
 
 
+
     public double volume(double side_a, double side_b, double side_c, double side_h){
         double p = (side_a+side_b+side_c)/2;//пів периметр
         double areaBaza =  Math.sqrt(p*((p - side_a)*(p-side_b)*(p-side_c)));//площа основи
