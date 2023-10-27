@@ -61,8 +61,6 @@ public class RectPyramid {
         return volume;
     }
 
-
-
     public static double getSide_a() {
         return side_a;
     }
